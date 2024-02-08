@@ -1,0 +1,321 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color:#000000;
+    font-family: 'Rubik Burned', system-ui;
+    font-family: 'Marvel', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Marvel:wght@700&family=Rubik+Burned&display=swap');
+
+.divider{
+    margin-top:10px;
+    height:3px;
+    width:100%;
+    background-color: #ffffffa0;
+}
+.marvellogoupperdiv{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.marvellogo{
+    height: 100px;
+    width:16%;
+    background-image: url("marvellogo.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.history{
+    margin-top:10px;
+    color:#ffffff;
+    text-align:center;
+    font-size:1rem;
+}
+.marvelintronhistory{
+    display:flex;
+    flex-direction:column;
+}
+.histdesc{
+    text-align:justify;
+    padding:10px;
+    font-size: 1.2rem;
+    color:#ff0000ea;
+}
+.marvelintrovidouter{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.marvelintro{
+    /* height:26.9vh; */
+    width:444px;
+    box-shadow: 0px -15px 19px 0px #ff000080;
+}
+.themovieshead{
+    color:#ffffff;
+    padding:10px 20px;
+}
+.mcumovies{
+    width:100%;
+    height:50vh;
+    display:flex;
+    flex-direction:row;
+}
+.mcuposter{
+    width:40%;
+    height:100%;
+    background-repeat:no-repeat;
+    background-size: cover;
+    position:relative; 
+}
+.mcuclip{
+    width:100%;
+    height:100%;
+    background-repeat:no-repeat;
+    object-fit: cover;
+}
+.mcubg{
+    width:100%;
+    height:100%;
+    background-repeat:no-repeat;
+    position:relative;
+    z-index:0;
+    background-size:contain;
+}
+.decbright{
+    width:100%;
+    height:100%;
+    background-image: url("blackscreen.png");
+    opacity:0.69;
+    background-repeat:no-repeat;
+    position:absolute;
+    z-index:1;
+}
+.mcudesc{
+    text-align:justify;
+    color:#ffffff;
+    background-color: #00000000;
+    position:absolute;
+    z-index:2;
+    padding:0 7px;
+}
+.mcumoviesname{
+    background-color: #00000000;
+    /* font-weight: 900; */
+    margin: 0.7em 0;
+}
+
+.ironman1poster{
+    background-image: url("ironman1poster.jpg");
+}
+.ironman1bg{
+    background-image:url("ironman1bg.jpg");
+}
+.incrhulkposter{
+    background-image: url("theincrhulkposter.jpg");
+}
+.incrhulkbg{
+    background-image:url("theincrhulkbg.jpg");
+}
+.ironman2poster{
+    background-image: url("ironman2poster.jpg");
+}
+.ironman2bg{
+    background-image:url("ironman2bg.gif");
+}
+.thor1poster{
+    background-image: url("thor1poster.jpg");
+}
+.thor1bg{
+    background-image: url("thor1bg.jpg");
+}
+.capam1poster{
+    background-image: url("capam1poster.jpg");
+}
+.capam1bg{
+    background-image: url("capam1bg.jpg");
+}
+.theavengersposter{
+    background-image:url("theavengers\(2012\)poster.jpg");
+}
+.theavengersbg{
+    background-image: url("theavengers\(2012\)bg.jpg");
+}
+.ironman3poster{
+    background-image: url("ironman3poster.jpg");
+}
+.ironman3bg{
+    background-image: url("ironman3bg.jpg");
+}
+.thor2poster{
+    background-image: url("thor2poster.jpg");
+}
+.thor2bg{
+    background-image: url("thor2bg.jpg");
+}
+.capam2poster{
+    background-image: url("capam2poster.jpg");
+}
+.capam2bg{
+    background-image: url("capam2bg.jpg");
+}
+.gotg1poster{
+    background-image: url("gotg1poster.jpg");
+}
+.gotg1bg{
+    background-image: url("gotg1bg.jpg");
+}
+.ageofultronposter{
+    background-image: url("ageofultronposter.jpg");
+}
+.ageofultronbg{
+    background-image: url("ageofultronbg.jpg");
+}
+.antman1poster{
+    background-image: url("antman1poster.jpg");
+}
+.antman1bg{
+    background-image: url("antman1bg.jpg");
+}
+.capam3poster{
+    background-image: url("capam3poster.jpg");
+}
+.capam3bg{
+    background-image: url("capam3bg.jpg");
+}
+.docstr1poster{
+    background-image: url("docstrange1poster.jpg");
+}
+.docstr1bg{
+    background-image: url("docstrange1bg.png");
+}
+.gotg2poster{
+    background-image: url("gotg2poster.jpg");
+}
+.gotg2bg{
+    background-image: url("gotg2bg.jpg");
+}
+.spiderman1poster{
+    background-image: url("spiderman1poster.jpg");
+}
+.spiderman1bg{
+    background-image: url("spiderman1bg.webp");
+}
+.thor3poster{
+    background-image: url("thor3poster.jpg");
+}
+.thor3bg{
+    background-image: url("thor3bg.jpg");
+}
+.blackpanther1poster{
+    background-image: url("blackpanther1poster.jpg");
+}
+.blackpanther1bg{
+    background-image: url("blackpanther1bg.jpg");
+}
+.infinitywarposter{
+    background-image: url("infinitywarposter.jpg");
+}
+.infinitywarbg{
+    background-image: url("infinitywarbg.jpg");
+}
+.antman2poster{
+    background-image: url("antman2poster.jpg");
+}
+.antman2bg{
+    background-image: url("antman2bg.jpg");
+}
+.capmar1poster{
+    background-image: url("capmar1poster.jpg");
+}
+.capmar1bg{
+    background-image: url("capmar1bg.jpg");
+}
+.endgameposter{
+    background-image: url("endgameposter.jpg");
+}
+.endgamebg{
+    background-image: url("endgamebg.jpg");
+}
+.spiderman2poster{
+    background-image: url("spiderman2poster.jpg");
+}
+.spiderman2bg{
+    background-image: url("spiderman2bg.jpg");
+}
+.blackwidowposter{
+    background-image: url("blackwidowposter.jpg");
+}
+.blackwidowbg{
+    background-image: url("blackwidowbg.jpg");
+}
+.shangchiposter{
+    background-image: url("shangchiposter.jpg");
+}
+.shangchibg{
+    background-image:url("shangchibg.jpg");
+}
+.spiderman3poster{
+    background-image: url("spiderman3poster.jpg");
+}
+.spiderman3bg{
+    background-image: url("spiderman3bg.webp");
+}
+
+@media (max-width:450px){
+    .marvellogo{
+        width:54%;
+    }
+    .divider{
+        margin-top: 0;
+    }
+    .history{
+        font-size:0.5rem;
+    }
+    .marvelintro{
+        width:100vw;
+        box-shadow: -2px -8px 13px 2px #ff000080;
+    }
+    .histdesc{
+        font-size: 0.7rem;
+        padding:5px;
+    }
+    .themovieshead{
+        font-size:0.5rem;
+    }
+    .mcumoviesname{
+        font-size:0.7rem;
+    }
+    .mcudesc{
+        font-size: 0.7rem;
+        padding:5px;
+    }
+    .mcumovies{
+        height:85vh;
+        flex-direction: column;
+    }   
+    .mcuposter{
+        background-size: contain;
+    }
+    .mcubg{
+        background-size: cover;
+    }
+    .mcuclip{
+        object-fit:cover;
+    }
+}
+@media (min-width:451px) and (max-width:1200px){
+    .mcumovies{
+        height:120vh;
+        flex-direction: column;
+    }   
+    .mcuposter{
+        background-size: contain;
+    }
+    .mcubg{
+        background-size: cover;
+    }
+    .mcuclip{
+        object-fit:cover;
+    }
+}
